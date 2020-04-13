@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body>
+
+    <%- include ('partials/navigation.html') %>
+
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img class="animated rubberBand" src="/img/joker.png" alt="joker face" />
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION ONE -->
+    <div class="container-fuild" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>My first website with nodejs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Dolor, sint maxime excepturi nostrum, fugiat voluptatem
+                    vitae aperiam inventore provident architecto praesentium quam natus
+                    qui ratione. Impedit vel tempore corrupti voluptatibus?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <%- include ('partials/footer.html') %>
+
+</body>
+
+</html>
